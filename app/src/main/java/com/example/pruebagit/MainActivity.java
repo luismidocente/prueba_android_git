@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
+        //Log.d(tag: "TAG",  msg:"esto es un prueba");
         return super.onOptionsItemSelected(item);
     }
 }
